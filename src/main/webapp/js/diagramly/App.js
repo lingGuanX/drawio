@@ -13,6 +13,8 @@
  */
 App = function(editor, container, lightbox)
 {
+
+	// alert('欢迎各位二开开发者')
 	EditorUi.call(this, editor, container, (lightbox != null) ? lightbox :
 		(urlParams['lightbox'] == '1' || (uiTheme == 'min' &&
 		urlParams['chrome'] != '0')));
